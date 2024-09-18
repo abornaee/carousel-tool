@@ -19,7 +19,7 @@ export function StarOnGithub() {
           "transition-all duration-300 ease-out"
         )}
         target="_blank"
-        href={"https://github.com/FranciscoMoretti/carousel-generator"}
+        href={"https://app.soshial.io/home"}
       >
         <span
           className={cn(
@@ -29,10 +29,10 @@ export function StarOnGithub() {
             cn("group-hover:translate-x-[-135px]")
           )}
         />
-        <Icons.gitHub className="h-4 w-4" />
-        Star on GitHub
+        
+        Try Soshial for Free
         <div className="hidden items-center gap-1 text-sm text-muted-foreground md:flex">
-          <StarIcon className="h-4 w-4 transition-all duration-300 group-hover:text-[#e3b341]" />
+          
           {/* //TODO: Consider adding star counter with github api */}
         </div>
       </Link>
